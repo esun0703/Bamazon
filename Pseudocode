@@ -1,0 +1,23 @@
+CREATE DATABASE
+CREATE TABLE
+	columns:
+		item_id(autoincrement, primary key)
+		product_name (varchar, not null)
+		department name (varchar, not null),
+		price (decimal (100,2), not null),
+		stock_quantity()
+Have 10 Different Products
+
+
+NODE=====================================
+bamazonCustomer.js
+	//on start will first display all items for sale
+		//ids, names, and prices
+	//prompt (inquirer)
+		//What is the ID of the product you would like to buy? (input)
+		//How Many Units? (input);
+	//check if your store has enough of the product to meet the customer's request.
+		//If not: console.log (Insufficient Quantity)
+		//If does: function
+			//updates sql database to remaining quanitity
+			//show customer total cost
